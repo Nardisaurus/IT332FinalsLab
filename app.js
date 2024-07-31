@@ -15,6 +15,7 @@ let routingControl;
 let markers = []; 
 
 
+
 function getLocationAndSetupRouting() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(onSuccess, onError);
